@@ -1,0 +1,45 @@
+.aldkjie {
+    position: relative;
+ }
+ .ndscnu {
+     position: absolute;
+     top: 0;
+     color:#f1f1f1;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+ }
+ .SubContent  {
+     margin-left: 100px;
+ }
+ .SubContent h3{
+     font-size: 48px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .zyy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.body-back {
+    background-color: black;
+    color: white;
+}
+.body-backw {
+    background-color: white;
+}
+.body-backww {
+    padding: 20px;
+}
+
+.subbb {
+    text-align: center;
+}
+.cqqq {
+    margin-right: 1px;
+}
+
+.hjj {
+    padding: 20px;
+}

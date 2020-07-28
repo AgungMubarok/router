@@ -1,0 +1,21 @@
+.ddada {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 0!important;
+}
+.sde {
+    margin: 5px;
+}
+.casnk {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.kwa {
+    display: flex;
+}
+.asdasx {
+    list-style: none;
+    font-size: 10px;
+}
