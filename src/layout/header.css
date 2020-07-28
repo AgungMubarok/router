@@ -1,4 +1,4 @@
-.navbarrr {
+.navbarr {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -6,7 +6,6 @@
     position: fixed;
     z-index: 900;
     background: rgb(255, 255, 255);
-    opacity: 80%;
 }
 .asdug, .asdug:hover {
     color: black;

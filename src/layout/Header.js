@@ -8,7 +8,7 @@ import '../Component/Listjob/ListJob';
 
 const Header = () => {
     return (
-        <Navbar className="navbarrr dfvfvs">
+        <Navbar className="navbarr">
             <Navbar.Brand><Link to="/">
                 <img
                     src="https://impactbyte.com/static/brand/impactbyte_horizontal_color-trans.svg"
