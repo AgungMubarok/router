@@ -5,13 +5,41 @@ import {
   Route,
 } from "react-router-dom";
 
-
 import './App.css';
 import Header from './layout/Header'
 import Foot from './layout/Footer'
-import Home from './Component/Home/Home'
-import ListJob from './Component/Listjob/ListJob'
-import DetailBlog from './Component/Detail/DetailBlog';
+import Home from './pages/Home/Home'
+import ListJob from './pages/Listjob/ListJob'
+import DetailBlog from './pages/Detail/DetailBlog';
+
+const listlistjob =
+    [
+      {
+        titleJob : 'Senior Product Manager - Security Experience',
+        location : 'Jl.Kemang Raya, Jakarta Selatan',
+        position : 'Security'
+      },
+      {
+        titleJob : 'Senior Analytics Engineer - Payments & Partnerships',
+        location : 'Jl.Kemang Raya, Jakarta Selatan',
+        position : 'Data Science and Engineering'
+      },
+      {
+        titleJob : 'Manager, Transportation',
+        location : 'Jl.Kemang Raya, Jakarta Selatan',
+        position : 'Facilities, Workplace Services and Real Estate'
+      },
+      {
+        titleJob : 'Manager, Corporate Safety',
+        location : 'Jl.Kemang Raya, Jakarta Selatan',
+        position : 'Facilities, Workplace Services and Real Estate'
+      },
+      {
+        titleJob : 'Manager, Content FP&A',
+        location : 'Jl.Kemang Raya, Jakarta Selatan',
+        position : 'Strategy and Analysis'
+      }
+    ];
 
 function App() {
   return (
@@ -22,7 +50,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/ListJob">
-          <ListJob />
+          <ListJob lllist={listlistjob}/>
         </Route>
         <Route path="/:id">
           <DetailBlog />
