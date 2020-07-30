@@ -23,7 +23,7 @@ const BlogCard = ({cardBlog}) => {
                                 <Card.Text>
                                     {blogCardData.desc}
                                 </Card.Text>
-                                <Link to="/Machine Learning">
+                                <Link to={`/${blogCardData.title}`}>
                                 <Button variant="danger">Read More</Button>
                                 </Link>
                             </Card>
