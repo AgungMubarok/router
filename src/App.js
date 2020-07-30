@@ -8,9 +8,9 @@ import {
 import './App.css';
 import Header from './layout/Header'
 import Foot from './layout/Footer'
-import Home from './pages/Home/Home'
-import ListJob from './pages/Listjob/ListJob'
-import DetailBlog from './pages/Detail/DetailBlog';
+import Home from './pages/Home'
+import ListJob from './pages/ListJob'
+import DetailBlog from './pages/DetailBlog';
 
 const listlistjob =
     [

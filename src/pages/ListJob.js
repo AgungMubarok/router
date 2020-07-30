@@ -1,11 +1,25 @@
 import React from 'react'
 import { Container, Card} from 'react-bootstrap';
 
-import "./listJob.css"
-
 const ListJob = ({ lllist }) => {
     return (
     <>
+        <style>
+            {`
+            .gerg {
+                padding-top: 90px;
+                padding-bottom: 20px;
+            }
+            .efbu {
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 200%;
+            }
+            .sefbiu {
+                display: flex;
+            }
+            `}
+        </style>
         <Container className="gerg">
         {   
             lllist.map((listlistjob) => (

@@ -3,7 +3,7 @@ import {Navbar} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 import "./footer.css"
-import '../pages/Home/Home';
+import '../pages/Home';
 
 const Foot = () => {
     return (

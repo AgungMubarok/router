@@ -2,16 +2,14 @@ import React from 'react'
 import { Container,Card} from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
-import "./detailBlog.css"
-
 const DetailBlog = () => {
     let {id} = useParams();
     return (
     <div className="gerg mb-5">
         <style type="text/css">
             {`
-            .btn-danger {
-            border-radius: 0px;
+            .gerg {
+                padding-top: 90px;
             }
             `}
         </style>

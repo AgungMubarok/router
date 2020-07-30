@@ -10,9 +10,8 @@ import
     Card
 } from 'react-bootstrap';
 
-import "./home.css"
-import MediaCard from './cards/Card'
-import BlogCard from './BlogCard/BlogCard'
+import MediaCard from '../components/Card'
+import BlogCard from '../components/BlogCard'
 
 
 const Home = () => {
@@ -79,6 +78,32 @@ const Home = () => {
             }
             .btn-danger {
                 border-radius: 0px;
+            }
+            .aldkjie {
+            position: relative;
+            }
+            .ndscnu {
+                position: absolute;
+                top: 0;
+                color:#f1f1f1;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            .SubContent  {
+                margin-left: 100px;
+            }
+            .SubContent h3{
+                font-size: 48px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        
+            .subbb {
+                text-align: center;
+            }
+            .cqqq {
+                margin-right: 1px;
             }
             `}
             </style>

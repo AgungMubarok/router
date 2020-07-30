@@ -3,8 +3,8 @@ import {Navbar} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 import "./header.css"
-import '../pages/Home/Home';
-import '../pages/Listjob/ListJob';
+import '../pages/Home';
+import '../pages/ListJob';
 
 const Header = () => {
     return (
