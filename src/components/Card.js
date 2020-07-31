@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button, Container} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
 
 
 const MediaCard = ({ listMedia }) => {
@@ -18,11 +17,9 @@ const MediaCard = ({ listMedia }) => {
                             alt="Generic placeholder"
                             />
                             <div className="m-5">
-                            <h5>{mediaObject.titleOb}</h5>
-                            <p>{mediaObject.descrr}</p>
-                            <Link to="/List-based media object 1">
+                                <h5>{mediaObject.titleOb}</h5>
+                                <p>{mediaObject.descrr}</p>
                                 <Button size="lg" variant="danger">Read About our Culture</Button>
-                            </Link>
                             </div>
                         </div>
                         </Container>
